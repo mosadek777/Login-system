@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>login</title>
+
+</head>
+
+<body onload="displayWelcomeUser()">
+
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container">
+
+            <a class="navbar-brand" href="#">SMART LOGIN</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="btn btn-outline-warning" href="index.html" onclick="logOut()" id="logOut">logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+
+    <div class="container">
+        <div class="row h-100 d-flex justify-content-center align-content-center">
+            <div class="home-massage w-75 text-center">
+                <h1 class="text-info" id="massage"></h1>
+            </div>
+        </div>
+    </div>
+
+
+
+ 
+    <script src="js/main.js"></script> 
+
+
+</body>
+
+</html>
